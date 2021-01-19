@@ -24,7 +24,6 @@ def fecthone_dict(row, multiple):
         data_entry[column_names[col]] = row_element
     return data_entry
 
-
 #Convert all rows from a fetch into a list of dictionaries
 def fecthall_dict(rows):
     fetch_result = []
@@ -32,7 +31,6 @@ def fecthall_dict(rows):
     for row in rows:
         fetch_result.append(fecthone_dict(row, True))
     return fetch_result
-
 
 #Query for 'get_current' service. 
 def get_current_query():
