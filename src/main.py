@@ -1,4 +1,3 @@
-
 from socket_server import server_socket as server #Importing the server instance
 from socket_server import SHUT_RDWR
 from collections import deque
